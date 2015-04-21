@@ -1,0 +1,18 @@
+html{
+  font-family: "Roboto" sans-serif;
+  font-size: 62.5%;
+  line-height: 1;
+  color: #333;
+  background-color: #fff;
+}
+
+body{
+  font-size: 1.6em;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body{
+  min-width: 320px;
+}
