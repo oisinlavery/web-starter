@@ -43,7 +43,7 @@ gulp.task('watch', function(){
 gulp.task('libs', function () {
   del(['build/libs'], function(){
 
-    var path = "../libs/";
+    var path = "src/libs/";
 
     return gulp.src([
       path+'jquery/jquery.js',
